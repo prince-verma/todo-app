@@ -1,0 +1,10 @@
+export const NAME_SPACE = 'todos';
+
+const types = {
+  ADD_TODO: `${NAME_SPACE}/ADD_TODO`,
+  REMOVE_TODO: `${NAME_SPACE}/REMOVE_TODO`,
+  TOGGLE_COMPLETE: `${NAME_SPACE}/TOGGLE_COMPLETE`,
+  APPLY_TEXT_FILTER: `${NAME_SPACE}/APPLY_TEXT_FILTER`,
+};
+
+export default types;
